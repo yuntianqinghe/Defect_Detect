@@ -18,7 +18,7 @@ using Emgu.CV.CvEnum;
 using ThridLibray;//使用第三方库调用摄像机
 using System.IO;
 
-//添加函数功能说明
+//V1.0
 namespace WindowsFormsApp4
 {
 	public partial class Form1 : Form
