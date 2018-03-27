@@ -91,7 +91,7 @@ namespace WindowsFormsApp4
 			return centercontourindex;
 
 		}
-		Image<Bgr,byte> _gimage_Source1,_gimage_Source2,_gimage_Source3;
+		Image<Bgr,byte> _gimage_Source1,_gimage_Source2,_gimage_Source3;//全局变量
 		int LENGTH = 1500;//给定基准物体距离摄像机的水平距离为1500个像素点长度
 	    //计算中间值距离图像中心距离distancefromcenter
 		double[] _gdistancefromcenter = new double[960];
