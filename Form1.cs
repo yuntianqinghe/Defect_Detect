@@ -150,6 +150,7 @@ namespace WindowsFormsApp4
 				pictureBox2.Image = disp.ToBitmap();
 				//描述矩形边界框，返回一个包围轮廓的CvRect,CvRect只能表示一个方正的长方形
 				//此功能暂时不用
+				/*
 				Image<Bgr, byte> draw = disp.CopyBlank();
 				for (int i = 0; i < contours.Size; i++)
 				{
@@ -158,7 +159,7 @@ namespace WindowsFormsApp4
 						Rectangle BoundingBox = CvInvoke.BoundingRectangle(contour);
 						CvInvoke.Rectangle(draw, BoundingBox, new MCvScalar(255, 0, 255, 255), 3);
 					}
-				}
+				}*/
 				//获取轮廓所有坐标值
 				int Contours_Sizeof = 2000;//轮廓坐标点总数
 				int[,] contourArray = new int[2, Contours_Sizeof];
